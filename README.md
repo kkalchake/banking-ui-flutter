@@ -21,7 +21,7 @@ This project is a starting point for a Flutter application.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [repository-url]
+    git clone https://github.com/kkalchake/banking-ui-flutter.git
     ```
 2.  **Get dependencies:**
     ```bash
