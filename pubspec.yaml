@@ -1,0 +1,43 @@
+name: flutter_banking_app_ui
+description: "A Flutter Material 3 frontend for the Spring Boot Banking App."
+publish_to: 'none' # Prevents accidental publication
+
+version: 1.0.0+1
+
+environment:
+  # Using the latest stable Dart SDK constraint for future compatibility.
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking package to connect to the Java/Spring Boot backend API.
+  http: ^1.6.0 
+  
+  # Recommended package for state management (similar to React's Context/Redux).
+  provider: ^6.1.5 
+  
+  # Cupertino icons are generally not needed for a Material 3 app,
+  # but included here as a standard, optional inclusion.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for good coding practices (using a high, stable version).
+  flutter_lints: ^6.0.0
+
+flutter:
+  # Ensures the Material Icons font is available.
+  uses-material-design: true
+
+  # Asset/Font sections are commented out by default, but ready for use.
+  # assets:
+  #   - images/
+  
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
